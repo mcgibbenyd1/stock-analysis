@@ -48,12 +48,12 @@ By refactoring the codes as such, the output time was able to be greatly reduced
 ![2018 Refactored Stock Analysis](https://github.com/mcgibbenyd1/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ### Summary: Refactoring
-1. What are the advantages or disadvantages of refactoring code?
-* Advantages of refactoring code can include more efficient code that runs much faster as well as the possible to better equip the code to handle much broader datasets
-* Disadvantages can include increased testing to verifiy that the new simplicity or complexity does not introduce new bugs or errors. 
+1) What are the advantages or disadvantages of refactoring code?
+  * Advantages of refactoring code can include more efficient code that runs much faster as well as the possible to better equip the code to handle much broader datasets
+  * Disadvantages can include increased testing to verifiy that the new simplicity or complexity does not introduce new bugs or errors. 
 
-2. How do these pros and cons apply to refactoring the original VBA script?
-* The new refactored code was able to reduce the processing time by almost a factor of 10 by reducing the number of time the dataset needed to be scanned within the For loops. 
-* Changing the variables for Volumes, Starting Price, and Ending Price to an array made it possible to eliminate the nested For loop
-* The added array usage increased the complexity slightly that required updating some of the inputs for the variables in order to reference to correct ticker which caused to multiple testing attempts to verify the same output as the original analysis.  
-* Additionally the code code handle many more stocks with the refactoring to include a loop to create an array of unique ticker within the dataset so the code was not limited to the dozen stocks reviewed. 
+2) How do these pros and cons apply to refactoring the original VBA script?
+  * The new refactored code was able to reduce the processing time by almost a factor of 10 by reducing the number of time the dataset needed to be scanned within the For loops. 
+  * Changing the variables for Volumes, Starting Price, and Ending Price to an array made it possible to eliminate the nested For loop
+  * The added array usage increased the complexity slightly that required updating some of the inputs for the variables in order to reference to correct ticker which caused to multiple testing attempts to verify the same output as the original analysis.  
+  * Additionally the code code handle many more stocks with the refactoring to include a loop to create an array of unique ticker within the dataset so the code was not limited to the dozen stocks reviewed. 

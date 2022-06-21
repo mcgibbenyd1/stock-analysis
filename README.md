@@ -18,11 +18,11 @@ In order to better evaluate the stock performance the positive returning stock a
 
 **2017 Green Stock Performance**
 
-![2017 Original Stock Analysis](https://github.com/mcgibbenyd1/stock-analysis/blob/main/Green_Stocks%20original%20code%202017.png)
+<img src="https://github.com/mcgibbenyd1/stock-analysis/blob/main/Green_Stocks%20original%20code%202017.png" width="650" height="340" />
 
 **2018 Green Stock Performance**
 
-![2018 Original Stock Analysis](https://github.com/mcgibbenyd1/stock-analysis/blob/main/Green_Stocks%20original%20code%202018.png)
+<img src="https://github.com/mcgibbenyd1/stock-analysis/blob/main/Green_Stocks%20original%20code%202018.png" width="650" height="340" />
 
 Based on the results, 2017 showed positive returns for all the stocks chosen besides the stock identified by TERP. The ticker symbol DQ performed the best with a return of almost 200%. In 2018, the results were not as favorable with only two stocks with positive returns, ENPH and RUN.
 
@@ -41,11 +41,11 @@ By refactoring the codes as such, the output time was able to be greatly reduced
 
 **2017 Refactored Stock Performance**
 
-![2017 Refactored Stock Analysis](https://github.com/mcgibbenyd1/stock-analysis/blob/main/VBA_Challenge_2017.png)
+<img src="https://github.com/mcgibbenyd1/stock-analysis/blob/main/VBA_Challenge_2017.png" width="650" height="340" />
 
 **2018 Refactored Stock Performance**
 
-![2018 Refactored Stock Analysis](https://github.com/mcgibbenyd1/stock-analysis/blob/main/VBA_Challenge_2018.png)
+<img src="https://github.com/mcgibbenyd1/stock-analysis/blob/main/VBA_Challenge_2018.png" width="650" height="340" />
 
 ### Summary: Refactoring
 1) What are the advantages or disadvantages of refactoring code?

@@ -56,4 +56,4 @@ By refactoring the codes as such, the output time was able to be greatly reduced
   * The new refactored code was able to reduce the processing time by almost a factor of 10 by reducing the number of time the dataset needed to be scanned within the For loops. 
   * Changing the variables for Volumes, Starting Price, and Ending Price to an array made it possible to eliminate the nested For loop
   * The added array usage increased the complexity slightly that required updating some of the inputs for the variables in order to reference to correct ticker which caused to multiple testing attempts to verify the same output as the original analysis.  
-  * Additionally the code code handle many more stocks with the refactoring to include a loop to create an array of unique ticker within the dataset so the code was not limited to the dozen stocks reviewed. 
+  * Additionally the code could handle many more stocks with the refactoring by including a loop to create an array of unique tickers within the dataset so the code was not limited to the dozen stocks reviewed. 
